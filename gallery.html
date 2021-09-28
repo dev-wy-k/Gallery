@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column-Picture</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cinzel', serif;
+        }
+        body {
+            padding: 20px;
+            background-image: linear-gradient(216deg, rgba(77, 77, 77,0.05) 0%, rgba(77, 77, 77,0.05) 25%,rgba(42, 42, 42,0.05) 25%, rgba(42, 42, 42,0.05) 38%,rgba(223, 223, 223,0.05) 38%, rgba(223, 223, 223,0.05) 75%,rgba(36, 36, 36,0.05) 75%, rgba(36, 36, 36,0.05) 100%),linear-gradient(44deg, rgba(128, 128, 128,0.05) 0%, rgba(128, 128, 128,0.05) 34%,rgba(212, 212, 212,0.05) 34%, rgba(212, 212, 212,0.05) 57%,rgba(25, 25, 25,0.05) 57%, rgba(25, 25, 25,0.05) 89%,rgba(135, 135, 135,0.05) 89%, rgba(135, 135, 135,0.05) 100%),linear-gradient(241deg, rgba(55, 55, 55,0.05) 0%, rgba(55, 55, 55,0.05) 14%,rgba(209, 209, 209,0.05) 14%, rgba(209, 209, 209,0.05) 60%,rgba(245, 245, 245,0.05) 60%, rgba(245, 245, 245,0.05) 69%,rgba(164, 164, 164,0.05) 69%, rgba(164, 164, 164,0.05) 100%),linear-gradient(249deg, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 32%,rgba(148, 148, 148,0.05) 32%, rgba(148, 148, 148,0.05) 35%,rgba(202, 202, 202,0.05) 35%, rgba(202, 202, 202,0.05) 51%,rgba(181, 181, 181,0.05) 51%, rgba(181, 181, 181,0.05) 100%),linear-gradient(92deg, hsl(214,0%,11%),hsl(214,0%,11%));
+        }
+        .heading {
+            color: rgb(28, 194, 194);
+            text-align: center;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            background-color: #303030;
+            opacity: 0.9;
+            width: 100%;
+        }
+        .gallery {
+            columns: 3 300px;
+            column-gap: 20px;
+            width: 1000px;
+            margin: auto;
+        }
+        .img {
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .img:hover {
+            filter:drop-shadow(8px 8px 10px black);
+        }
+        @media screen and (max-width: 1024px) {
+
+            .gallery {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            body{
+                padding: 10px;
+            }
+            .heading{
+                margin-bottom: 10px;
+            }
+            .gallery{
+                columns: 2 150px;
+                column-gap: 10px;
+            }
+            .img{
+                margin-bottom: 10px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1> <span style="color:#D5AF8A">Khay</span> Gallery</h1>
+    </div>
+    <div class="gallery">
+        <img src="./New folder/image (1).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (2).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (3).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (4).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (5).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (6).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (7).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (8).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (9).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (10).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (11).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (12).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (13).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (14).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (15).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (16).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (17).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (18).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (19).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (20).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (21).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (22).jpg" alt="Gallery" class="img">
+        <img src="./New folder/image (23).jpg" alt="Gallery" class="img">
+    </div>
+</body>
+
+</html>
